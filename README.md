@@ -5,13 +5,8 @@ xhost +
 ```
 
 これ危険だからよくない
-終わったら
 
-```bash
-xhost -
-```
 
-しとく
 それから
 
 ```bash
@@ -41,4 +36,10 @@ docker-compose exec python3 bash
 export DISPLAY=(ここに最初に覚えたやついれる):0
 cd handpose3d
 python handpose3d.py
+```
+
+終わったら
+
+```bash
+xhost -
 ```
