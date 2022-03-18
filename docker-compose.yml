@@ -7,5 +7,5 @@ services:
     working_dir: '/root/python'
     tty: true
     volumes:
-      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ~/.Xauthority:/root/.Xauthority 
       - ${SRC_PATH}:/root/python
